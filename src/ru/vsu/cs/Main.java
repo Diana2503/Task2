@@ -53,7 +53,7 @@ public class Main {
     }
 
     public static void printValueMin(int min) {
-        System.out.println("max = " + min);
+        System.out.println("min = " + min);
     }
 
     public static void printAdverseAnswer() {
