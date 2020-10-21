@@ -30,7 +30,7 @@ public class Main {
                 min = a;
             }
 
-            findNumberAfterDivision(num);
+            num = num/10;
 
             if(num == 0) {
                 break;
@@ -66,11 +66,6 @@ public class Main {
     public static int findRestNumber(int num) {
         return Math.abs(num %10);
     }
-
-    public static int findNumberAfterDivision(int num) {
-        return num = num / 10;
-    }
-
 }
 
 
